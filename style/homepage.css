@@ -23,6 +23,7 @@ header{
     justify-content: space-between;
     padding: 33px 9%;
     background: transparent;
+
 }
 
 span{
@@ -64,6 +65,13 @@ span{
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 2rem;
+    margin-top: 50px;
+}
+
+
+.logo{
+    width: 10%;
+
 }
 
 video{
@@ -77,8 +85,13 @@ video{
     border-radius: 2rem;
 }
 
-img{
-    width: 100%;
+.poster{
+    position: relative;
+    align-content: center;
+    width: 350px;
+    margin-left: 20%;
+    margin-top: 15%;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsl(0, 0%, 0%, 0.25);
 }
 
 
@@ -285,146 +298,13 @@ li span {
 }
 @media (max-width: 700px){
 
-    .hero-text h1{
-        text-align: center;
-        width: 700px;
-        font-size: 60px;
-        margin: 0 0 30px;
-    }
-    .hero-text p{
-        font-size: 10px;
-        text-align: center;
-        width: 700px;
-    }
-
-    #menu-icon{
-        display: block;
-    }
-    .navlist{
-        position: absolute;
-        top: 100%;
-        right: -100%;
-        width: 300px;
-        height: 40vh;
-        background: #4540CF;
-        display: none;
-        align-items: center;
-        flex-direction: column;
-        padding: 50px 20px;
-        transition: all .55s ease;
-    }
-    .navlist a{
-        display: block;
-        margin: 7px 0;
-        margin-left: 0;
-    }
-
-    .navlist.open{
-        right: 0;
-        display: flex;
-    }
-
-    .hero{
-        height: 100%;
+    .hero-text{
         width: 100%;
-        min-height: 100vh;
-        position: relative;
-        display: grid;
-        text-align: center;
-        align-items: center;
-        gap: 2rem;
     }
-
-    video{
-        display: none;
-    }
-
-    img{
-        width: 375px;
-        display: flex;
-        margin-left: auto;
-        margin-right: auto;
-        align-items: center;
-    }
-}
-
-
-
-@media (max-width: 425px){
 
     .hero-text h1{
         text-align: center;
-        width: 375px;
-        font-size: 60px;
-        margin: 0 0 30px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .hero-text p{
-        font-size: 10px;
-        text-align: center;
-        width: 375px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    #menu-icon{
-        display: block;
-        padding-right: 10px;
-    }
-    .navlist{
-        position: absolute;
-        top: 100%;
-        right: -100%;
-        width: 300px;
-        height: 40vh;
-        background: #4540CF;
-        display: none;
-        align-items: center;
-        flex-direction: column;
-        padding: 50px 20px;
-        transition: all .55s ease;
-    }
-    .navlist a{
-        display: block;
-        margin: 7px 0;
-        margin-left: 0;
-    }
-
-    .navlist.open{
-        right: 0;
-        display: flex;
-    }
-
-    .hero{
-        height: 100%;
         width: 100%;
-        min-height: 100vh;
-        position: relative;
-        display: grid;
-        text-align: center;
-        align-items: center;
-        gap: 2rem;
-    }
-
-    video{
-        display: none;
-    }
-
-    img{
-        width: 375px;
-        display: flex;
-        margin-left: auto;
-        margin-right: auto;
-        align-items: center;
-    }
-}
-
-@media (max-width: 375px){
-
-    .hero-text h1{
-        text-align: center;
-        width: 370px;
         font-size: 50px;
         margin: 0 0 30px;
         margin-left: auto;
@@ -439,6 +319,7 @@ li span {
     }
 
     #menu-icon{
+
         display: block;
     }
     .navlist{
@@ -446,12 +327,12 @@ li span {
         top: 100%;
         right: -100%;
         width: 300px;
-        height: 40vh;
+        height: 50vh;
         background: #4540CF;
         display: none;
         align-items: center;
         flex-direction: column;
-        padding: 50px 20px;
+        padding: 50px 30px;
         transition: all .55s ease;
     }
     .navlist a{
@@ -473,24 +354,208 @@ li span {
         display: grid;
         text-align: center;
         align-items: center;
+        align-content: center;
         gap: 2rem;
     }
     .hero-text{
-        width: 375px;
+        width: 100%;
     }
 
     video{
         display: none;
     }
 
-    img{
-        width: 340px;
-        display: flex;
+
+
+    .logo{
+        margin-right: 70%;
+        width: 50px ;
+        float: left;
+    }
+
+    .poster{
+        position: relative;
+        align-content: center;
         margin-left: auto;
         margin-right: auto;
-        align-items: center;
+        width: 500px;
+        margin-bottom: 30px;
+        box-shadow: 0 1.5rem 3rem -0.75rem hsl(0, 0%, 0%, 0.25);
     }
 }
+
+
+
+@media (max-width: 425px){
+
+    .hero-text h1{
+        text-align: center;
+        width: 100%;
+        font-size: 50px;
+        margin: 0 0 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .hero-text p{
+        font-size: 10px;
+        text-align: center;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #menu-icon{
+
+        display: block;
+    }
+    .navlist{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 300px;
+        height: 50vh;
+        background: #4540CF;
+        display: none;
+        align-items: center;
+        flex-direction: column;
+        padding: 50px 30px;
+        transition: all .55s ease;
+    }
+    .navlist a{
+        display: block;
+        margin: 7px 0;
+        margin-left: 0;
+    }
+
+    .navlist.open{
+        right: 0;
+        display: flex;
+    }
+
+    .hero{
+        height: 100%;
+        width: 100%;
+        min-height: 100vh;
+        position: relative;
+        display: grid;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        gap: 2rem;
+    }
+    .hero-text{
+        width: 100%;
+    }
+
+    video{
+        display: none;
+    }
+
+
+
+    .logo{
+        margin-right: 70%;
+        width: 50px ;
+        float: left;
+    }
+
+    .poster{
+        position: relative;
+        align-items: center;
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        box-shadow: 0 1.5rem 3rem -0.75rem hsl(0, 0%, 0%, 0.25);
+    }
+}
+
+@media (max-width: 375px) {
+
+    .hero-text h1 {
+        text-align: center;
+        width: 100%;
+        font-size: 50px;
+        margin: 0 0 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-text p {
+        font-size: 10px;
+        text-align: center;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #menu-icon {
+
+        display: block;
+    }
+
+    .navlist {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 300px;
+        height: 50vh;
+        background: #4540CF;
+        display: none;
+        align-items: center;
+        flex-direction: column;
+        padding: 50px 30px;
+        transition: all .55s ease;
+    }
+
+    .navlist a {
+        display: block;
+        margin: 7px 0;
+        margin-left: 0;
+    }
+
+    .navlist.open {
+        right: 0;
+        display: flex;
+    }
+
+    .hero {
+        height: 100%;
+        width: 100%;
+        min-height: 100vh;
+        position: relative;
+        display: grid;
+        text-align: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .hero-text {
+        width: 100%;
+    }
+
+    video {
+        display: none;
+    }
+
+
+    .logo {
+        margin-right: 70%;
+        width: 50px;
+        float: left;
+    }
+
+    .poster {
+        position: relative;
+        align-content: center;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        box-shadow: 0 1.5rem 3rem -0.75rem hsl(0, 0%, 0%, 0.25);
+    }
+}
+
 
 
 
