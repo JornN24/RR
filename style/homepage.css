@@ -392,16 +392,22 @@ li span {
         text-align: center;
         width: 100%;
         font-size: 50px;
-        margin: 0 0 30px;
-        margin-left: auto;
-        margin-right: auto;
+        /*margin: 0 0 30px;*/
+        /*margin-left: auto;*/
+        /*margin-right: auto;*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .hero-text p{
         font-size: 10px;
-        text-align: center;
+        /*text-align: center;*/
         width: 200px;
-        margin-left: auto;
-        margin-right: auto;
+        /*margin-left: auto;*/
+        /*margin-right: auto;*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     #menu-icon{
