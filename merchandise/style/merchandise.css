@@ -27,9 +27,7 @@ header{
 }
 
 span{
-    font-family: 'Orbitron', sans-serif;
     color: #EC158E;
-
 }
 
 
@@ -76,93 +74,6 @@ span{
 
 }
 
-video{
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    position: relative;
-    margin-bottom: 10%;
-    box-shadow: 0 1.5rem 3rem -0.75rem hsl(0, 0%, 0%, 0.25);
-    border-radius: 2rem;
-
-}
-
-
-.poster{
-    position: relative;
-    align-content: center;
-    width: 350px;
-    margin-left: 20%;
-    margin-top: 15%;
-    box-shadow: 0 1.5rem 3rem -0.75rem hsl(0, 0%, 0%, 0.25);
-}
-
-
-
-section{
-    padding: 0 19%;
-}
-
-.hero-text h5{
-    font-size: 14px;
-    font-weight: 400;
-    color: white;
-    margin-bottom: 40px;
-}
-
-.hero-text h1{
-    font-family: 'Audiowide', cursive;
-    font-size: 90px;
-    line-height: 1;
-    color: white;
-    margin: 0 0 45px;
-}
-
-.hero-text h4{
-    font-size: 18px;
-    font-weight: 600;
-    color: white;
-    margin-bottom: 10px;
-}
-
-.hero-text p{
-
-    color: white;
-    font-size: 20px;
-    line-height: 1.9;
-    margin-bottom: 40px;
-}
-
-.hero-text a{
-    display: inline-block;
-    color: white;
-    background: #EC158E;
-    border: 1px solid transparent;
-    padding: 12px 30px;
-    line-height: 1.4;
-    font-size: 14px;
-    font-weight: 500;
-    border-radius: 30px;
-    text-transform: uppercase;
-    transition: all .55s ease;
-}
-
-.hero-text a:hover{
-    background: transparent;
-    border: 1px solid white;
-    transform: translateX(8px);
-}
-
-.hero-text a.ctaa{
-    margin-right:10px ;
-
-}
-
-.hero-text a.ctaa i{
-    vertical-align: middle;
-    margin-right: 5px;
-}
 
 .icons{
     position: absolute;
@@ -263,16 +174,9 @@ li span {
 
 }
 @media (max-width: 1340px)  {
-    .slider-wrapper img{
+    .poster img{
         width: 100%;
         height: auto;
-    }
-    .hero-text h1{
-        font-size: 75px;
-        margin: 0 0 30px;
-    }
-    .hero-text h5{
-        margin-bottom: 25px;
     }
 }
 @media (max-width: 1195px){
@@ -302,26 +206,6 @@ li span {
 }
 @media (max-width: 700px){
 
-    .hero-text{
-        width: 100%;
-    }
-
-    .hero-text h1{
-        text-align: center;
-        width: 100%;
-        font-size: 50px;
-        margin: 0 0 30px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .hero-text p{
-        font-size: 10px;
-        text-align: center;
-        width: 200px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
     #menu-icon{
 
         display: block;
@@ -361,30 +245,12 @@ li span {
         align-content: center;
         gap: 2rem;
     }
-    .hero-text{
-        width: 100%;
-    }
-
-    video{
-        display: none;
-    }
-
 
 
     .logo{
         margin-right: 70%;
         width: 50px ;
         float: left;
-    }
-
-    .poster{
-        position: relative;
-        align-content: center;
-        margin-left: auto;
-        margin-right: auto;
-        width: 500px;
-        margin-bottom: 30px;
-        box-shadow: 0 1.5rem 3rem -0.75rem hsl(0, 0%, 0%, 0.25);
     }
 }
 
@@ -392,22 +258,6 @@ li span {
 
 @media (max-width: 425px){
 
-    .hero-text h1{
-        text-align: center;
-        width: 100%;
-        font-size: 50px;
-        margin: 0 0 30px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .hero-text p{
-        font-size: 10px;
-        text-align: center;
-        width: 200px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
     #menu-icon{
 
         display: block;
@@ -447,14 +297,6 @@ li span {
         align-content: center;
         gap: 2rem;
     }
-    .hero-text{
-        width: 100%;
-    }
-
-    video{
-        display: none;
-    }
-
 
 
     .logo{
@@ -463,35 +305,10 @@ li span {
         float: left;
     }
 
-    .poster{
-        position: relative;
-        align-items: center;
-        width: 250px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 30px;
-        box-shadow: 0 1.5rem 3rem -0.75rem hsl(0, 0%, 0%, 0.25);
-    }
+
 }
 
 @media (max-width: 375px) {
-
-    .hero-text h1 {
-        text-align: center;
-        width: 100%;
-        font-size: 50px;
-        margin: 0 0 30px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .hero-text p {
-        font-size: 10px;
-        text-align: center;
-        width: 200px;
-        margin-left: auto;
-        margin-right: auto;
-    }
 
     #menu-icon {
 
@@ -559,6 +376,7 @@ li span {
         box-shadow: 0 1.5rem 3rem -0.75rem hsl(0, 0%, 0%, 0.25);
     }
 }
+
 
 
 
