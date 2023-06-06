@@ -167,7 +167,8 @@ sup{
 }
 
 .type p{
-    font-family:'Open Sans';
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
     font-weight: 800;
     font-size: 29px;
     text-transform: uppercase;
@@ -234,28 +235,6 @@ sup{
     top: 16px;
 
 }
-
-
-.login_c{
-    width:500px;
-    background-color:#2b2937;
-    height:300px;
-    margin: 0 auto;
-    margin-top:40px;
-    border-radius:5px;
-
-}
-
-.login_c input{
-    width: 350px;
-    height: 40px;
-    border: 1px solid #494a5a;
-    margin-bottom:20px;
-    border-radius:5px;
-    padding-left: 10px;
-
-}
-
 
 .top{
     margin-top:35px;
